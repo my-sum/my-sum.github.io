@@ -1,1 +1,61 @@
-简简单单
+<html>
+    <head>
+    <script>
+            function myFunction(){
+                document.getElementById("demo1").innerHTML="cheat you!haha~";
+            }
+    </script>
+    </head>
+   <div1> 
+ <style>
+    table,th,td{
+        border:1px solid black;
+        border-collapse:collapse;
+    }
+ </style>
+    <body1 style="text-align: center;">
+
+        <h1 >
+            This is about a girl.
+           
+        </h1>
+        <p style="background-image: url('bluesky.jpg');">
+            This is a picture about bluesky.
+        </p>
+        
+        <p1 style="text-align: center; "> She is abstruct and <span style="border: 1px solid black">beautiful</span>.Rellay?</p1>
+        <br>
+        <a href="https://mp.weixin.qq.com/s/BMQD5fGd0amnqWP3wCCbCw" >
+        <img src="/selfblog/image/ming1.jpg" alt="beauty" 
+         style="float:right;width:360px ;height:500px" >
+        </a>
+        <img src="image\ming2.jpg" alt="are" usemap="#workshop" 
+        style="width:360px;height: 500px">
+       <map name="workshop">
+         <area target="_blank" alt="baidu"  href="https://jingyan.baidu.com " 
+        coords="45,45,471,227" shape="circle">
+       </map>
+       <table style="width:100%";>
+       <tr>
+        <th> Time</th>
+        <th>Where</th>
+        <th>Who</th>
+       </tr>
+       <tr>
+        <td>vacation</td>
+        <td>Lisa</td>
+        <td>Me and you</Td>
+       </tr>
+       </table>
+    </div1>
+<div2>
+       <p id="demo" style="text-align: center;">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+   
+<p id="demo1" style="text-align: center;">wo how cool</p>
+   <button type="button" onclick="myFunction()">Try it</button>
+    </div2>
+    
+    </body1>
+</html>
